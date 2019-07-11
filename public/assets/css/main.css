@@ -16,6 +16,13 @@
   border: 2px solid #f26002;
   padding: 8.5px 25px;
   cursor: pointer;
+  -webkit-transition: color ease 0.7s, background ease 0.7s;
+  transition: color ease 0.7s, background ease 0.7s;
+}
+
+.btn-empty:hover {
+  background: #f26002;
+  color: #ffffff;
 }
 
 .btn-filled {
@@ -156,7 +163,7 @@
 .article_h4 {
   font-family: "Roboto", sans-serif;
   color: #8ccbea;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .article_title {

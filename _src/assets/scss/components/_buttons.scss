@@ -15,7 +15,11 @@
     border: 2px solid $color-primary;
     padding: 8.5px 25px;
     cursor: pointer;
-   
+    transition: color ease 0.7s, background ease 0.7s;
+    &:hover {
+        background: $color-primary;
+        color: $color-light;
+    }
 }
 .btn-filled {
     background: $color-primary;
