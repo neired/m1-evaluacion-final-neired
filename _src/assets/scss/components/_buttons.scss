@@ -2,12 +2,13 @@
     background: $color-light;
     color: $color-primary;
     border: 2px solid $color-primary;
-    padding-left: 15px; 
-    padding-right: 15px; 
+    padding: 8.5px 25px;
 }
 .btn-filled {
     background: $color-primary;
     color: $color-light;
+    border:none;
+    padding: 0px 30px;
 }
 .btn-default {
     border-radius: 22.5px;
