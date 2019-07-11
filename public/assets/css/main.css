@@ -321,6 +321,10 @@ body {
     margin: 30px auto 45px auto;
   }
 
+  .reason_title {
+    font-size: 24px;
+  }
+
   .txt_md {
     font-size: 20px;
   }
