@@ -1,8 +1,21 @@
+.btn-burguer {
+    border:none;
+    background: $color-dark-midtone;
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    margin: 0 0;
+    padding: 0 0;
+    outline: none;
+    cursor: pointer;
+}
 .btn-empty {
     background: $color-light;
     color: $color-primary;
     border: 2px solid $color-primary;
     padding: 8.5px 25px;
+    cursor: pointer;
+   
 }
 .btn-filled {
     background: $color-primary;
@@ -18,4 +31,5 @@
     text-decoration: none;
     margin: none;
     font-weight: $font-weight-medium;
+    outline: none;
 }

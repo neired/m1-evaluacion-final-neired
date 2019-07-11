@@ -1,8 +1,21 @@
+.btn-burguer {
+  border: none;
+  background: #0271bc;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  margin: 0 0;
+  padding: 0 0;
+  outline: none;
+  cursor: pointer;
+}
+
 .btn-empty {
   background: #ffffff;
   color: #f26002;
   border: 2px solid #f26002;
   padding: 8.5px 25px;
+  cursor: pointer;
 }
 
 .btn-filled {
@@ -20,6 +33,7 @@
   text-decoration: none;
   margin: none;
   font-weight: 500;
+  outline: none;
 }
 
 .hero {
@@ -68,6 +82,18 @@
   text-align: center;
 }
 
+.hero_iconsection {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+
+.hero_iconsection:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .hero_iconbox {
   background: #ffffff;
   width: 45px;
@@ -83,15 +109,6 @@
   align-content: center;
   margin-top: 45px;
   margin-bottom: 53px;
-}
-
-.header_menu {
-  background: #0271bc;
-  width: 44px;
-  height: 44px;
-  position: fixed;
-  margin: 0 0;
-  padding: 0 0;
 }
 
 .burguer_menu {

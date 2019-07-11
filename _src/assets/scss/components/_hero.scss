@@ -24,6 +24,12 @@
     color: $color-light;
     text-align: center;
 }
+.hero_iconsection {
+    transition:transform ease 0.5s;
+      &:hover {
+        transform:scale(1.5);
+      }
+}
 .hero_iconbox {
     background: $color-light;
     width: 45px;
