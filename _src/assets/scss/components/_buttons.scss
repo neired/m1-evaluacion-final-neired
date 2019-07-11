@@ -1,0 +1,12 @@
+.btn-empty {
+    background: $color-light;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+}
+.btn-filled {
+    background: $color-primary;
+    color: $color-light;
+}
+.btn-default {
+    border-radius: 22.5px;
+}

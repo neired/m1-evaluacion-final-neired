@@ -1,0 +1,26 @@
+.link__adalab:hover {
+  background-color: #099d8d;
+  color: #fff;
+}
+
+.link__github:hover {
+  background-color: #CCC;
+  color: #000;
+}
+
+.btn-empty {
+  background: #ffffff;
+  color: #f26002;
+  border: 2px solid #f26002;
+}
+
+.btn-filled {
+  background: #f26002;
+  color: #ffffff;
+}
+
+.btn-default {
+  border-radius: 22.5px;
+}
+
+/*# sourceMappingURL=main.css.map */
