@@ -21,6 +21,22 @@
 
 .btn-default {
   border-radius: 22.5px;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/cover.jpg");
+}
+
+.hero_title {
+  font-family: "Roboto Slab", serif;
+}
+
+.hero_text {
+  font-family: "Roboto", sans-serif;
 }
 
 .header_menu {
@@ -36,6 +52,31 @@
   width: 16px;
   height: 14px;
   margin: 15px 14px;
+}
+
+.txt_xs {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.txt_sm {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.txt_md {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.txt_lg {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.txt_xl {
+  font-size: 42px;
+  line-height: 55px;
 }
 
 /*# sourceMappingURL=main.css.map */

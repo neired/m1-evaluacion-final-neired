@@ -1,0 +1,12 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/cover.jpg");
+   
+}
+.hero_title {
+    font-family: $font-family-title;
+}
+.hero_text {
+    font-family: $font-family-text;
+}
