@@ -298,4 +298,46 @@ body {
   padding: 0 15px;
 }
 
+@media all and (min-width: 768px) {
+  .hero_title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .anonimous {
+    margin-right: 25px;
+  }
+
+  .hero_text {
+    font-size: 24px;
+  }
+
+  .hero_iconbox {
+    margin: 30px auto 45px auto;
+  }
+
+  .txt_xl {
+    font-size: 80px;
+    line-height: 106px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .txt_xl {
+    font-size: 100px;
+    line-height: 132px;
+  }
+}
+
+@media all and (min-width: 2014px) {
+  .hero_iconbox {
+    margin: 30px auto 13px auto;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

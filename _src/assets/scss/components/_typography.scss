@@ -22,4 +22,12 @@
     line-height: 55px;
     text-transform: uppercase;
     font-weight: $font-weight-bold;
+    @media all and (min-width:768px) {
+        font-size: 80px;
+        line-height: 106px;
+    }
+    @media all and (min-width:1024px) {
+        font-size: 100px;
+        line-height: 132px;
+    }
 }

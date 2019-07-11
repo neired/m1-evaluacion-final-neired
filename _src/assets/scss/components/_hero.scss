@@ -22,12 +22,24 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    @media all and (min-width:768px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.anonimous {
+    @media all and (min-width:768px) {
+        margin-right:25px;
+    }
 }
 .hero_text {
     font-family: $font-family-text;
     color: $color-light;
     text-align: center;
     margin: 0 auto;
+    @media all and (min-width:768px) {
+        font-size: 24px;
+    }
 }
 .hero_iconsection {
     grid-row:3;
@@ -45,4 +57,10 @@
     justify-content: center;
     align-content: center;
     margin: 45px auto 53px auto;
+    @media all and (min-width:768px) {
+        margin: 30px auto 45px auto;
+    }
+    @media all and (min-width:2014px) {
+        margin: 30px auto 13px auto;
+    }
 }
