@@ -2,6 +2,9 @@
     font-family: $font-family-text;
     color: $color-midtone;
     padding-top:35px;
+    @media all and (min-width:1024px) {
+        font-size: 16px;
+    }
 }
 .article_title {
     font-family: $font-family-title;

@@ -321,6 +321,15 @@ body {
     margin: 30px auto 45px auto;
   }
 
+  .txt_md {
+    font-size: 20px;
+  }
+
+  .txt_lg {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
   .txt_xl {
     font-size: 80px;
     line-height: 106px;
@@ -328,6 +337,14 @@ body {
 }
 
 @media all and (min-width: 1024px) {
+  .article_h4 {
+    font-size: 16px;
+  }
+
+  .txt_lg {
+    font-size: 32px;
+  }
+
   .txt_xl {
     font-size: 100px;
     line-height: 132px;
