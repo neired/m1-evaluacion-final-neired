@@ -1,6 +1,14 @@
-.reasons_title {
-    font-family: $font-family-title;
-    color: $color-black;
+.reasons {
+    list-style: none;
+    margin: 0 0;
+    padding: 0 0;
+    display: grid;
+    grid-template-columns: 180px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.article_reasons {
+    background: $color-light-midtone;
+    text-align: center;
 }
 .reason_title {
     font-family: $font-family-title;
@@ -9,4 +17,16 @@
 .reason_text {
     font-family: $font-family-text;
     color: $color-black;
+}
+.item1 {
+    grid-row: 1;
+}
+.item2 {
+    grid-row: 2;
+}
+.item3 {
+    grid-row: 3;
+}
+.item4 {
+    grid-row: 4;
 }

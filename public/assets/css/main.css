@@ -127,9 +127,18 @@
   margin: none;
 }
 
-.reasons_title {
-  font-family: "Roboto Slab", serif;
-  color: #000000;
+.reasons {
+  list-style: none;
+  margin: 0 0;
+  padding: 0 0;
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.article_reasons {
+  background: #eff9ff;
+  text-align: center;
 }
 
 .reason_title {
@@ -140,6 +149,22 @@
 .reason_text {
   font-family: "Roboto", sans-serif;
   color: #000000;
+}
+
+.item1 {
+  grid-row: 1;
+}
+
+.item2 {
+  grid-row: 2;
+}
+
+.item3 {
+  grid-row: 3;
+}
+
+.item4 {
+  grid-row: 4;
 }
 
 .txt_xs {
@@ -174,6 +199,11 @@
 
 body {
   margin: 0 0;
+}
+
+.page_wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
