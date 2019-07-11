@@ -70,10 +70,13 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 50% 1fr auto;
 }
 
 .hero_textsection {
   position: relative;
+  grid-row: 2;
 }
 
 .hero_title {
@@ -89,15 +92,18 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .hero_text {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   text-align: center;
+  margin: 0 auto;
 }
 
 .hero_iconsection {
+  grid-row: 3;
   -webkit-transition: -webkit-transform ease 0.5s;
   transition: -webkit-transform ease 0.5s;
   transition: transform ease 0.5s;
@@ -122,8 +128,7 @@
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  margin-top: 45px;
-  margin-bottom: 53px;
+  margin: 45px auto 53px auto;
 }
 
 .burguer_menu {

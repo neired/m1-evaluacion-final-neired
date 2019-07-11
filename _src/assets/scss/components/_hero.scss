@@ -8,9 +8,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-rows: 50% 1fr auto;
 }
 .hero_textsection {
     position: relative;
+    grid-row:2;
 }
 .hero_title {
     font-family: $font-family-title;
@@ -18,13 +21,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 .hero_text {
     font-family: $font-family-text;
     color: $color-light;
     text-align: center;
+    margin: 0 auto;
 }
 .hero_iconsection {
+    grid-row:3;
     transition:transform ease 0.5s;
       &:hover {
         transform:scale(1.2);
@@ -38,6 +44,5 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 45px;
-    margin-bottom: 53px;
+    margin: 45px auto 53px auto;
 }
