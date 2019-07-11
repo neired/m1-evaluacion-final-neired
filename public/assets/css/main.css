@@ -28,8 +28,16 @@
 .btn-filled {
   background: #f26002;
   color: #ffffff;
-  border: none;
-  padding: 0px 30px;
+  border: 2px solid #eff9ff;
+  padding: 0px 28px;
+  -webkit-transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
+  transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
+}
+
+.btn-filled:hover {
+  background: #ffffff;
+  color: #f26002;
+  border: 2px solid #f26002;
 }
 
 .btn-default {
@@ -241,7 +249,7 @@
 .item4 {
   grid-row: 4;
   width: 184px;
-  height: 45px;
+  height: 49px;
   margin: 0 auto;
 }
 

@@ -24,8 +24,14 @@
 .btn-filled {
     background: $color-primary;
     color: $color-light;
-    border:none;
-    padding: 0px 30px;
+    border: 2px solid $color-light-midtone;
+    padding: 0px 28px;
+    transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
+    &:hover {
+        background: $color-light;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+    }
 }
 .btn-default {
     border-radius: 22.5px;
