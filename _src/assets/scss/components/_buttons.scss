@@ -2,6 +2,8 @@
     background: $color-light;
     color: $color-primary;
     border: 2px solid $color-primary;
+    padding-left: 15px; 
+    padding-right: 15px; 
 }
 .btn-filled {
     background: $color-primary;
@@ -11,4 +13,8 @@
     border-radius: 22.5px;
     font-size: 20px;
     line-height: 45px;
+    font-family: $font-family-text;
+    text-decoration: none;
+    margin: none;
+    font-weight: $font-weight-medium;
 }
