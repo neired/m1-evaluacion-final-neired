@@ -1,11 +1,7 @@
-.article {
-    margin: 30px 15px 45px 15px;
-}
-
 .article_h4 {
     font-family: $font-family-text;
     color: $color-midtone;
-    margin: 0 0;
+    padding-top:30px;
 }
 .article_title {
     font-family: $font-family-title;
@@ -18,6 +14,6 @@
     margin: 0 0 25px 0;
     font-weight: $font-weight-regular;
 }
-.article.btn {
-    margin: none;
+.article {
+    padding-bottom: 45px;
 }

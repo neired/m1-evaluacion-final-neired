@@ -100,14 +100,10 @@
   margin: 15px 14px;
 }
 
-.article {
-  margin: 30px 15px 45px 15px;
-}
-
 .article_h4 {
   font-family: "Roboto", sans-serif;
   color: #8ccbea;
-  margin: 0 0;
+  padding-top: 30px;
 }
 
 .article_title {
@@ -123,8 +119,8 @@
   font-weight: 400;
 }
 
-.article.btn {
-  margin: none;
+.article {
+  padding-bottom: 45px;
 }
 
 .reasons_list {
