@@ -100,6 +100,42 @@
   margin: 15px 14px;
 }
 
+.footer {
+  background: #304268;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_list {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.footer_box1 {
+  padding-top: 60px;
+}
+
+.footer_box2 {
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.footer_box3 {
+  padding-bottom: 30px;
+}
+
+.footer_xs {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer_heart {
+  color: #f26002;
+}
+
 .article_h4 {
   font-family: "Roboto", sans-serif;
   color: #8ccbea;
