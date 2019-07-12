@@ -6,8 +6,14 @@
     grid-template-columns: 290px;
     grid-template-rows: 135px 135px 105px 45px;
     @media all and (min-width:768px) {
+        width: 100%;
         grid-template-columns:1fr 1fr 1fr;
         grid-template-rows: 1fr 49px;
+        column-gap: 27px;
+        row-gap: 60px;
+    }
+    @media all and (min-width:1200px) {
+        column-gap: 26px;
     }
 }
 .reasons {
@@ -17,6 +23,9 @@
 .article_reasons {
     background: $color-light-midtone;
     text-align: center;
+    @media all and (min-width:1200px) {
+        padding: 0 43px;
+    }
 }
 .reasons_title {
     font-family: $font-family-title;
@@ -36,10 +45,7 @@
 .reason_text {
     font-family: $font-family-text;
     color: $color-black;
-    margin: 0 0 45px 0;
-    @media all and (min-width:768px) {
-        margin: 0 0 60px 0;
-    }
+    margin: 0 0;
 }
 .item1 {
     grid-row: 1;
