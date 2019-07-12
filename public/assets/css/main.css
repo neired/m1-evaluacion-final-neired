@@ -367,6 +367,10 @@ body {
     font-size: 80px;
     line-height: 106px;
   }
+
+  .page_wrapper {
+    padding: 0 39px;
+  }
 }
 
 @media all and (min-width: 1024px) {

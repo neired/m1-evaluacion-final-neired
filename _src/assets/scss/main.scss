@@ -15,5 +15,7 @@ body {
     margin: 0 auto;
     max-width: 1024px;
     padding: 0 15px;
-    
+    @media all and (min-width:768px) {
+        padding: 0 39px;
+    }
 }
