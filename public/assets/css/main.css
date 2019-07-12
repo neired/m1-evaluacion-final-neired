@@ -167,6 +167,7 @@
 .footer_xs {
   text-align: center;
   margin: 0 auto;
+  padding: 0 0 5px 0;
 }
 
 .footer_heart {
@@ -356,6 +357,10 @@ body {
     padding: 45px 0;
   }
 
+  .footer_xs {
+    text-align: left;
+  }
+
   .reasons_list {
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
@@ -405,6 +410,12 @@ body {
 
   .page_wrapper {
     padding: 0 39px;
+  }
+}
+
+@media all and (min-width: 768px) and (min-width: 1200px) {
+  .footer_box {
+    padding: 0 331px;
   }
 }
 
