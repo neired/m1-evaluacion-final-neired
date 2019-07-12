@@ -10,6 +10,7 @@
     justify-content: center;
     display: grid;
     grid-template-rows: 50% 50%;
+    min-height: 700px;
 }
 .desperate_attempt {
     width: 100%;
@@ -24,10 +25,19 @@
     color: $color-light;
     text-align: center;
     width: 290px;
+    height:110px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
+    @media all and (min-width:768px) {
+        width: 690px;
+        height: 168px;
+    }
+    @media all and (min-width:1200px) {
+        width: 730px;
+        height: 260px;
+    }
 }
 .hero_text {
     font-family: $font-family-text;
@@ -51,6 +61,12 @@
       &:hover {
         transform:scale(1.2);
       }
+      @media all and (min-width:768px) {
+          margin: 30px auto 45px auto;
+      }
+      @media all and (min-width:1200px) {
+        margin: 13px auto 30px auto;
+    }
 }
 
 /*Este margin se lo he quitado al iconbox: 45px auto 53px auto*/

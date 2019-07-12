@@ -73,6 +73,7 @@
   justify-content: center;
   display: grid;
   grid-template-rows: 50% 50%;
+  min-height: 700px;
 }
 
 .desperate_attempt {
@@ -96,6 +97,7 @@
   color: #ffffff;
   text-align: center;
   width: 290px;
+  height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +108,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 
 .hero_text {
@@ -322,8 +324,17 @@ body {
 }
 
 @media all and (min-width: 768px) {
+  .hero_title {
+    width: 690px;
+    height: 168px;
+  }
+
   .hero_text {
     font-size: 24px;
+  }
+
+  .hero_iconbox {
+    margin: 30px auto 45px auto;
   }
 
   .footer_list {
@@ -412,7 +423,7 @@ body {
 
   .txt_xl {
     font-size: 80px;
-    line-height: 106px;
+    line-height: 80px;
   }
 
   .page_wrapper {
@@ -429,6 +440,15 @@ body {
 @media all and (min-width: 1200px) {
   .btn-empty {
     padding: 8.5px 66px;
+  }
+
+  .hero_title {
+    width: 730px;
+    height: 260px;
+  }
+
+  .hero_iconbox {
+    margin: 13px auto 30px auto;
   }
 
   .footer_iconbox {
@@ -458,7 +478,7 @@ body {
 
   .txt_xl {
     font-size: 100px;
-    line-height: 132px;
+    line-height: 130px;
   }
 }
 
