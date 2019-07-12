@@ -9,16 +9,39 @@
     text-align: center;
     padding-left: 0;
     margin:0 auto;
+    @media all and (min-width:768px) {
+        text-align: left;
+    }
+}
+@media all and (min-width:768px) {
+    .footer_box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
 }
 .footer_box1 {
     padding-top: 60px;
+    @media all and (min-width:768px) {
+        width: 210px;
+        padding: 45px 0;
+    }
 }
 .footer_box2 {
     padding-top: 30px;
     padding-bottom: 45px;
+    @media all and (min-width:768px) {
+        width: 210px;
+        padding: 45px 0;
+    }
 }
 .footer_box3 {
     padding-bottom: 30px;
+    @media all and (min-width:768px) {
+    order: -1;
+    width: 210px;
+    padding: 45px 0;
+    }
 }
 .footer_xs {
     text-align: center;

@@ -19,4 +19,7 @@
 }
 .article {
     padding-bottom: 45px;
+    @media all and (min-width:1200px) {
+        padding: 0 187px 45px 187px;
+    }
 }
