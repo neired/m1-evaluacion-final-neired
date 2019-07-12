@@ -15,6 +15,7 @@
   color: #f26002;
   border: 2px solid #f26002;
   padding: 8.5px 25px;
+  line-height: 45px;
   cursor: pointer;
   -webkit-transition: color ease 0.7s, background ease 0.7s;
   transition: color ease 0.7s, background ease 0.7s;
@@ -30,6 +31,7 @@
   color: #ffffff;
   border: 2px solid #eff9ff;
   padding: 0px 28px;
+  line-height: 41px;
   -webkit-transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
   transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
 }
@@ -43,7 +45,6 @@
 .btn-default {
   border-radius: 22.5px;
   font-size: 20px;
-  line-height: 45px;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   margin: none;
@@ -269,7 +270,7 @@
 .item4 {
   grid-row: 4;
   width: 184px;
-  height: 49px;
+  height: 45px;
   margin: 0 auto;
 }
 
@@ -437,6 +438,10 @@ body {
 }
 
 @media all and (min-width: 1200px) {
+  .btn-empty {
+    padding: 8.5px 66px;
+  }
+
   .hero_iconbox {
     margin: 30px auto 13px auto;
   }

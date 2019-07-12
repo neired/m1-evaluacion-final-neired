@@ -14,11 +14,15 @@
     color: $color-primary;
     border: 2px solid $color-primary;
     padding: 8.5px 25px;
+    line-height: 45px;
     cursor: pointer;
     transition: color ease 0.7s, background ease 0.7s;
     &:hover {
         background: $color-primary;
         color: $color-light;
+    }
+    @media all and (min-width:1200px) {
+        padding: 8.5px 66px;
     }
 }
 
@@ -27,6 +31,7 @@
     color: $color-light;
     border: 2px solid $color-light-midtone;
     padding: 0px 28px;
+    line-height: 41px;
     transition: color ease 0.7s, background ease 0.7s, border ease 0.7s;
     &:hover {
         background: $color-light;
@@ -37,7 +42,6 @@
 .btn-default {
     border-radius: 22.5px;
     font-size: 20px;
-    line-height: 45px;
     font-family: $font-family-text;
     text-decoration: none;
     margin: none;
