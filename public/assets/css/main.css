@@ -355,12 +355,12 @@ body {
 
   .footer_box1 {
     width: 210px;
-    padding: 45px 0;
+    padding-bottom: 45px;
   }
 
   .footer_box2 {
     width: 210px;
-    padding: 45px 0;
+    padding-top: 0;
   }
 
   .footer_box3 {
@@ -368,7 +368,6 @@ body {
     -ms-flex-order: -1;
     order: -1;
     width: 210px;
-    padding: 45px 0;
   }
 
   .footer_xs {
