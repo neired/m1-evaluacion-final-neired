@@ -65,31 +65,9 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  min-height: 700px;
-}
-
-.desperate_attempt {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  grid-row: 2;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .hero_title {
@@ -141,10 +119,13 @@
 .hero_iconbox:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}/*Este margin se lo he quitado al iconbox: 45px auto 53px auto*/.burguer_menu {
+}
+
+.burguer_menu {
   width: 16px;
   height: 14px;
   margin: 15px 14px;
+  z-index: 1;
 }
 
 .footer {
@@ -324,6 +305,10 @@ body {
 }
 
 @media all and (min-width: 768px) {
+  .hero {
+    min-height: 400px;
+  }
+
   .hero_title {
     width: 690px;
     height: 168px;
@@ -444,7 +429,7 @@ body {
 
   .hero_title {
     width: 730px;
-    height: 260px;
+    height: 200px;
   }
 
   .hero_iconbox {
@@ -478,7 +463,7 @@ body {
 
   .txt_xl {
     font-size: 100px;
-    line-height: 130px;
+    line-height: 110px;
   }
 }
 
