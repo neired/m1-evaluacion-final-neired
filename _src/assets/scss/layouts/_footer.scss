@@ -57,3 +57,20 @@
 .footer_heart {
     color: $color-primary;
 }
+.footer_iconbox {
+    background: $color-light;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    @media all and (min-width:768px) {
+        margin: 0 auto;
+    }
+    @media all and (min-width:1200px) {
+        margin: 0 auto;
+    }
+}
