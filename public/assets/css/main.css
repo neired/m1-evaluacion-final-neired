@@ -177,6 +177,8 @@
   margin: 0 auto 15px auto;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  -webkit-animation: opacity 5s infinite;
+  animation: opacity 5s infinite;
 }
 
 .article_h4 {
@@ -464,6 +466,34 @@ body {
   .txt_xl {
     font-size: 100px;
     line-height: 110px;
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

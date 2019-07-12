@@ -66,6 +66,18 @@
     align-content: center;
     margin: 0 auto 15px auto;
     transform: translateY(-50%);
+    animation: opacity 5s infinite;
+    @keyframes opacity {
+        0% {
+            opacity:1;
+        }
+        50% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
     @media all and (min-width:768px) {
         margin: 0 auto;
     }
