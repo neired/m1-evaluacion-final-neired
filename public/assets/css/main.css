@@ -72,11 +72,22 @@
   -ms-flex-pack: center;
   justify-content: center;
   display: grid;
-  grid-template-rows: 50% 1fr auto;
+  grid-template-rows: 50% 50%;
 }
 
-.hero_textsection {
-  position: relative;
+.desperate_attempt {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   grid-row: 2;
 }
 
@@ -84,6 +95,7 @@
   font-family: "Roboto Slab", serif;
   color: #ffffff;
   text-align: center;
+  width: 290px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,24 +116,12 @@
   margin: 0 auto;
 }
 
-.hero_iconsection {
-  grid-row: 3;
-  -webkit-transition: -webkit-transform ease 0.5s;
-  transition: -webkit-transform ease 0.5s;
-  transition: transform ease 0.5s;
-  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
-}
-
-.hero_iconsection:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
 .hero_iconbox {
   background: #ffffff;
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  margin: 45px auto 53px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,10 +130,16 @@
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  margin: 45px auto 53px auto;
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
 }
 
-.burguer_menu {
+.hero_iconbox:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}/*Este margin se lo he quitado al iconbox: 45px auto 53px auto*/.burguer_menu {
   width: 16px;
   height: 14px;
   margin: 15px 14px;
@@ -320,10 +326,6 @@ body {
     font-size: 24px;
   }
 
-  .hero_iconbox {
-    margin: 30px auto 45px auto;
-  }
-
   .footer_list {
     text-align: left;
   }
@@ -427,10 +429,6 @@ body {
 @media all and (min-width: 1200px) {
   .btn-empty {
     padding: 8.5px 66px;
-  }
-
-  .hero_iconbox {
-    margin: 30px auto 13px auto;
   }
 
   .footer_iconbox {

@@ -9,16 +9,21 @@
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-rows: 50% 1fr auto;
+    grid-template-rows: 50% 50%;
 }
-.hero_textsection {
-    position: relative;
-    grid-row:2;
+.desperate_attempt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-row: 2;
 }
 .hero_title {
     font-family: $font-family-title;
     color: $color-light;
     text-align: center;
+    width: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,26 +38,19 @@
         font-size: 24px;
     }
 }
-.hero_iconsection {
-    grid-row:3;
-    transition:transform ease 0.5s;
-      &:hover {
-        transform:scale(1.2);
-      }
-}
 .hero_iconbox {
     background: $color-light;
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    margin: 45px auto 53px auto;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 45px auto 53px auto;
-    @media all and (min-width:768px) {
-        margin: 30px auto 45px auto;
-    }
-    @media all and (min-width:1200px) {
-        margin: 30px auto 13px auto;
-    }
+    transition:transform ease 0.5s;
+      &:hover {
+        transform:scale(1.2);
+      }
 }
+
+/*Este margin se lo he quitado al iconbox: 45px auto 53px auto*/
