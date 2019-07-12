@@ -18,15 +18,11 @@
 .hero_title {
     font-family: $font-family-title;
     color: $color-light;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-}
-.anonimous {
-    @media all and (min-width:768px) {
-        margin-right:25px;
-    }
 }
 .hero_text {
     font-family: $font-family-text;

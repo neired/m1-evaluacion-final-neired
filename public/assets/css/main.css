@@ -83,6 +83,7 @@
 .hero_title {
   font-family: "Roboto Slab", serif;
   color: #ffffff;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,10 +316,6 @@ body {
 }
 
 @media all and (min-width: 768px) {
-  .anonimous {
-    margin-right: 25px;
-  }
-
   .hero_text {
     font-size: 24px;
   }
