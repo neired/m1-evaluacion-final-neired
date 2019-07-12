@@ -5,6 +5,10 @@
     display: grid;
     grid-template-columns: 290px;
     grid-template-rows: 135px 135px 105px 45px;
+    @media all and (min-width:768px) {
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr 49px;
+    }
 }
 .reasons {
    display: flex;
@@ -33,19 +37,39 @@
     font-family: $font-family-text;
     color: $color-black;
     margin: 0 0 45px 0;
+    @media all and (min-width:768px) {
+        margin: 0 0 60px 0;
+    }
 }
 .item1 {
     grid-row: 1;
+    @media all and (min-width:768px) {
+        grid-row: 1;
+        grid-column: 1;
+    }
 }
 .item2 {
     grid-row: 2;
+    @media all and (min-width:768px) {
+        grid-row: 1;
+        grid-column: 2;
+    }
 }
 .item3 {
     grid-row: 3;
+    @media all and (min-width:768px) {
+        grid-row: 1;
+        grid-column: 3;
+    }
 }
 .item4 {
     grid-row: 4;
     width:184px;
     height: 49px;
     margin: 0 auto;
+    @media all and (min-width:768px) {
+        grid-row: 2;
+        grid-column: 2;
+        
+    }
 }
