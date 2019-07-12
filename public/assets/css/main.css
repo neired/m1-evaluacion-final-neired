@@ -55,7 +55,7 @@
 .hero {
   height: 100vh;
   width: 100vw;
-  background: url("../images/cover.jpg");
+  background: url("../images/cover.jpg") center;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -315,16 +315,6 @@ body {
 }
 
 @media all and (min-width: 768px) {
-  .hero_title {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
   .anonimous {
     margin-right: 25px;
   }
