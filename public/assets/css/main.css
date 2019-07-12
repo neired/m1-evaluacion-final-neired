@@ -151,10 +151,6 @@
   margin: 0 auto;
 }
 
-.footer_box1 {
-  padding-top: 60px;
-}
-
 .footer_box2 {
   padding-top: 30px;
   padding-bottom: 45px;
@@ -187,7 +183,7 @@
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  margin: 0 auto;
+  margin: 0 auto 15px auto;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
